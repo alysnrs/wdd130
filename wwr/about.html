@@ -9,17 +9,17 @@
     <meta name="author" content="Allyson Montojo">
     <title>About Us | White Water Rafting</title>
 
-
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
 
-    <header>
-        <img src="images/logo.png" alt="White Water Rafting Logo">
+    <!-- HEADER -->
+    <header class="site-header">
+        <img src="images/logo.png" alt="White Water Rafting Logo" class="logo">
 
         <nav>
-            <ul>
+            <ul class="navigation">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="trips.html">Trips</a></li>
@@ -28,9 +28,9 @@
         </nav>
     </header>
 
-
     <main>
 
+        <!-- HERO -->
         <div class="hero">
             <img src="images/hero.jpg" alt="Rafting through white water rapids">
 
@@ -47,25 +47,65 @@
             </article>
         </div>
 
-        <section>
+        <!-- HISTORY SECTION -->
+        <section class="history">
             <h2>History</h2>
-            <p>
-                White Water Rafting Co. was founded by outdoor enthusiasts who wanted to share their
-                love of adventure with others. Over the years, we have guided thousands of guests
-                through beautiful rivers and thrilling rapids.
-            </p>
+
+            <div class="history-grid">
+                <p>
+                    White Water Rafting Co. was founded by outdoor enthusiasts who wanted to share
+                    their love of adventure with others.
+                </p>
+
+                <img src="images/history.jpg" alt="Rafting history">
+
+                <p>
+                    Over the years, we have guided thousands of guests through beautiful rivers
+                    and thrilling rapids.
+                </p>
+            </div>
         </section>
 
-        <section>
+        <!-- ADVENTURES SECTION -->
+        <section class="adventures">
             <h2>Adventure Awaits You!</h2>
+
+            <div class="adventure-gallery">
+
+                <figure>
+                    <img src="images/raft1.jpg" alt="Los Dientes del Diablo">
+                    <figcaption>Los Dientes del Diablo</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/raft2.jpg" alt="Big Mallard">
+                    <figcaption>Big Mallard</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/raft3.jpg" alt="Half Day Adventure">
+                    <figcaption>Half Day Adventure</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/raft4.jpg" alt="Rapid Run">
+                    <figcaption>Rapid Run</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/raft5.jpg" alt="Thunder Rapids">
+                    <figcaption>Thunder Rapids</figcaption>
+                </figure>
+
+            </div>
         </section>
 
     </main>
 
+    <!-- FOOTER -->
     <footer>
         <p>© 2026 White Water Rafting Co. | Allyson Montojo</p>
 
-        <!-- SOCIAL MEDIA ICONS -->
         <nav class="socialmedia">
             <a href="https://facebook.com">
                 <img src="images/facebook.png" alt="Facebook Icon">
@@ -74,7 +114,7 @@
                 <img src="images/instagram.avif" alt="Instagram Icon">
             </a>
             <a href="https://twitter.com">
-                <img src="images/twitter.jpg" alt="X (Twitter) Icon">
+                <img src="images/twitter.jpg" alt="X Icon">
             </a>
         </nav>
     </footer>
